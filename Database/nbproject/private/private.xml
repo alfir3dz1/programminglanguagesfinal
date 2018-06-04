@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/games/Create.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/games/Edit.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/WEB-INF/faces-config.xml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/database/model/GamesController.java</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/index.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/template.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/Bundle.properties</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/database/model/Games.java</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/games/View.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/welcome.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/games/List.xhtml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/database/model/util/PaginationHelper.java</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/database/model/AbstractFacade.java</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/database/model/util/JsfUtil.java</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/WEB-INF/web.xml</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/src/java/database/model/GamesFacade.java</file>
+            <file>file:/Users/Alfi/NetBeansProjects/Database/web/WEB-INF/glassfish-resources.xml</file>
+        </group>
+    </open-files>
+</project-private>

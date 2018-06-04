@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateGamesTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateGamesLabel_id}" for="id" />
+                    <h:inputText id="id" value="#{gamesController.selected.id}" title="#{bundle.CreateGamesTitle_id}" required="true" requiredMessage="#{bundle.CreateGamesRequiredMessage_id}"/>
+                    <h:outputLabel value="#{bundle.CreateGamesLabel_name}" for="name" />
+                    <h:inputText id="name" value="#{gamesController.selected.name}" title="#{bundle.CreateGamesTitle_name}" required="true" requiredMessage="#{bundle.CreateGamesRequiredMessage_name}"/>
+                    <h:outputLabel value="#{bundle.CreateGamesLabel_price}" for="price" />
+                    <h:inputText id="price" value="#{gamesController.selected.price}" title="#{bundle.CreateGamesTitle_price}" required="true" requiredMessage="#{bundle.CreateGamesRequiredMessage_price}"/>
+                    <h:outputLabel value="#{bundle.CreateGamesLabel_quantity}" for="quantity" />
+                    <h:inputText id="quantity" value="#{gamesController.selected.quantity}" title="#{bundle.CreateGamesTitle_quantity}" required="true" requiredMessage="#{bundle.CreateGamesRequiredMessage_quantity}"/>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{gamesController.create}" value="#{bundle.CreateGamesSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{gamesController.prepareList}" value="#{bundle.CreateGamesShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateGamesIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>
